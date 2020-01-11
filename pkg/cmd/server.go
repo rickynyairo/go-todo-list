@@ -10,7 +10,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/rickynyairo/go-todo-list/pkg/protocol/grpc"
-	"github.com/rickynyairo/go-todo-list/pkg/api/v1"
+	v1 "github.com/rickynyairo/go-todo-list/pkg/service/v1"
 )
 
 // Config is configuration for Server
