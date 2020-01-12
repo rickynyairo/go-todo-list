@@ -9,11 +9,10 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"google.golang.org/grpc"
 
-	"github.com/rickynyairo/go-todo-list/pkg/api/v1"
+	v1 "github.com/rickynyairo/go-todo-list/pkg/api/v1"
 )
 
 const (
-	// apiVersion is version of API is provided by server
 	apiVersion = "v1"
 )
 
